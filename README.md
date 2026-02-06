@@ -1,6 +1,6 @@
 # Dotshell Archives
 
-This repository contains all Dotshell public archives and provides a RESTful API to access them. 
+This repository is a TypeScript API that provides a RESTful API to access Dotshell public archives. 
 
 ## Endpoints
 
