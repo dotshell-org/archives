@@ -1,0 +1,64 @@
+# Dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist
+
+# Environment files (should be provided at runtime)
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output
+
+# Temporary folders
+tmp/
+temp/
+
+# Optional eslint cache
+.eslintcache
+
+# Docker files (avoid recursive copying)
+Dockerfile*
+docker-compose*
+
+# Documentation
+README.md
+LICENSE
+*.md
