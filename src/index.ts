@@ -1,10 +1,11 @@
+import 'dotenv/config';
 import express, { Application, Request, Response, NextFunction } from 'express';
 import * as path from 'path';
 import { ArchiveScanner } from './services/archiveScanner';
 import { createArchiveRouter } from './routes/archives';
 
 const app: Application = express();
-const PORT = process.env.PORT || 3000;
+const PORT = parseInt(process.env.PORT || '3000', 10);
 const DATA_PATH = process.env.DATA_PATH || path.join(__dirname, '..', 'data');
 
 // CORS middleware
